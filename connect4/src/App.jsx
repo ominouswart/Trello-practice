@@ -8,7 +8,7 @@ function App() {
     const [winner, setWinner] = useState(null);
   
     const handleClick = (colIndex) => {
-      if (winner) return; // Prevent further moves if there is a winner
+      if (winner) return; // Prevent further moves if there is a winnee
   
       // Find the first available row from the bottom in the selected column
       const rowIndex = [...board].reverse().findIndex(row => row[colIndex] === null);
