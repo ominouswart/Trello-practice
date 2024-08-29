@@ -1,0 +1,133 @@
+1.
+
+**Title:** Verify squares hover changing.
+
+**Objective:** To ensure which square is under pointer.
+
+**Preconditions:**
+- Connect4 game is running in localhost.
+
+**Test Steps:**
+1. Place the pointer on the square.
+
+**Expected Result:**
+- Square which is under pointer will change color.
+
+
+2.
+
+**Title:** Verify red player ability to click on board.
+
+**Objective:** To ensure that users can play the game. 
+
+**Preconditions:**
+- Connect4 game is running in localhost.
+- Current player: red.
+
+**Test Steps:**
+1. Click on any square on a board.
+
+**Test Data:**
+- User: Red
+
+**Expected Result:**
+- On board should appear red circle.
+
+3.
+
+**Title:** Verify yellow player ability to click on board.
+
+**Objective:** To ensure that users can play the game. 
+
+**Preconditions:**
+- Connect4 game is running in localhost.
+- Current player: yellow.
+
+**Test Steps:**
+1. Click on any square on a board.
+
+**Test Data:**
+- User: Yellow
+
+**Expected Result:**
+- On board should appear yellow circle.
+
+4.
+
+**Title:** Verify Current player is switching.
+
+**Objective:** To ensure that a both users can play the game. 
+
+**Preconditions:**
+- Connect4 game is running in localhost.
+
+**Test Steps:**
+1. Click on any square on a board.
+
+**Test Data:**
+- User1: Red
+- User2: Yellow
+
+**Expected Result:**
+- Current player should be switched to another.
+- Under board text should be switched to current player color.
+
+5.
+
+**Title:** Verify winning conditions red.
+
+**Objective:** To ensure that game is not endless. 
+
+**Preconditions:**
+- Connect4 game is running in localhost.
+
+**Test Steps:**
+1. By clicking on board build 4 circle tall red tower.
+
+**Test Data:**
+- User1: Red.
+- User2: Yellow.
+
+**Expected Result:**
+- Under board will appear text 'red wins!'.
+
+6.
+
+**Title:** Verify winning conditions yellow.
+
+**Objective:** To ensure that game is not endless. 
+
+**Preconditions:**
+- Connect4 game is running in localhost.
+
+**Test Steps:**
+1. By clicking on board build 4 circle tall yellow tower.
+
+**Test Data:**
+- User1: Red.
+- User2: Yellow.
+
+**Expected Result:**
+- Under board will appear text 'yellow wins!'.
+
+7. 
+
+**Title:** Verify ability to reset game.
+
+**Objective:** To ensure that players can reset game.
+
+**Preconditions:**
+- Connect4 game is running in localhost.
+- At least 1 circle ar on board.
+
+**Test Steps:**
+1. Click on 'Reset Game' button.
+
+**Expected Result:**
+- Board will reset (empty) all squares.
+- Current player will be red.
+
+
+
+
+
